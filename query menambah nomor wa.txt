@@ -1,0 +1,9 @@
+INSERT INTO `dokim_wni` 
+(`nomor_permohonan`, `nama`, `no_hp`, `tanggal_input`, 
+`nomor_paspor`, `jenis_paspor`, `jenis_pelayanan`, `tanggal_permohonan`, `jenis_kelamin`, `tempat_lahir`, `tanggal_lahir`, `keterangan`, `nip`) 
+VALUES 
+('TEST-REMINDER-004', 'NAMA_BARU_DI_SINI', 'NOMOR_HP_BARU_FORMAT_62', '2025-10-23', 
+'XTEST04', 'Biasa', 'Baru', '2025-10-23', 'L', 'Tes', '2000-01-01', 'Data tes baru', 'ADMIN');
+
+-- Pastikan perubahan disimpan permanen
+COMMIT;
